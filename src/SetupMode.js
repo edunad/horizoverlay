@@ -119,14 +119,6 @@ function SetupModeRaw(props) {
           />
         </div>
       </div>
-      <div className={`notice`}>
-        <span>H O R I Z O V E R L A Y</span>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: loc.initial.help
-          }}
-        />
-      </div>
     </div>
   )
 }
