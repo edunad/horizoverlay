@@ -106,18 +106,6 @@ function SetupModeRaw(props) {
             )
           })}
         </div>
-        <div className="instructions">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: loc.setupMode.instructionsTitle
-            }}
-          />
-          <div
-            dangerouslySetInnerHTML={{
-              __html: loc.setupMode.instructions
-            }}
-          />
-        </div>
       </div>
     </div>
   )
